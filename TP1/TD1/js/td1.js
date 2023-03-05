@@ -47,7 +47,7 @@ function swapInnerHTML(){
 
 function dateAlter(){
 	var derniereModif = new Date(document.lastModified);
-	const texte = "Dernière modification : " + day[derniereModif.getDay()-1] + " the  " + derniereModif.getDate() + " of " + month[derniereModif.getMonth()] + " " + derniereModif.getFullYear() + " by " + document.querySelectorAll('meta[name]')[1].getAttribute("content");
+	const texte = "Dernière modification : " + day[derniereModif.getDay()-1] + " the  " + derniereModif.getDate() + " of " + month[derniereModif.getMonth()] + " " + derniereModif.getFullYear() + " by " + document.querySelectorAll('meta[name]')[0].getAttribute("content");
 	// le vendredi 18 janvier 2021 par Nom Prénom
 	document.getElementById('holal').textContent=texte;
 }

@@ -6,7 +6,7 @@
 
 Ce sera le chargement de la page.
 
-### Quel méthode avez-vous utilisée pour récupérer l'objet représentant votre balise h1
+### Quel méthode avez-vous utilisée pour récupérer l'objet représentant votre balise \<h1\>
 
 J'ai utilisé la méthode getElementById
 
@@ -14,11 +14,11 @@ J'ai utilisé la méthode getElementById
 
 La propriété "textContent"
 
-### Quelle(s) méthode(s) avez-vous utilisée pour récypérer l'objet représentant la première balise <h2> ?
+### Quelle(s) méthode(s) avez-vous utilisée pour récypérer l'objet représentant la première balise \<h2\> ?
 
 J'ai utilisé la méthode querySelectorAll pour stocker toutes les balises h2 dans la variable h2s et ai choisi le premier élément en faisant h2s[0]
 
-### Comment faire pour connaitre le nombre de balise <h2> du document ?
+### Comment faire pour connaitre le nombre de balise \<h2\> du document ?
 
 Il faut utiliser la propriété .length de l'objet obtenu grâce à un querySelectorAll()
 
