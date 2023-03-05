@@ -6,11 +6,11 @@
 
 Ce sera le chargement de la page.
 
-### Quel méthode avez-vous utilisée pour récupérer l'objet représentant votre balise <h1>
+### Quel méthode avez-vous utilisée pour récupérer l'objet représentant votre balise h1
 
 J'ai utilisé la méthode getElementById
 
-### Quelle propriété de l'objet représentant votre balise <h1> avez-vous utilisée pour récupérer le texte de celui-ci ?
+### Quelle propriété de l'objet représentant votre balise \<h1\> avez-vous utilisée pour récupérer le texte de celui-ci ?
 
 La propriété "textContent"
 
