@@ -1,17 +1,21 @@
 $('form').submit(function(event){
     event.preventDefault();
+    const form = $('form')
     const email = $('#username').val();
     const message = $('#password').val();
+    const error = $('#error')
+    const succes = $('#succes')
 
     $.ajax({
         url: 'form.php',
         type: 'POST',
         data: {email:email, message: message},
         success: function(response){
-            console.log(response);
+            form.hide();
+            succes.show();
         },
         error: function(jqXHR, textStatus, errorThrown){
-            console.log(errorThrown);
+            error.text('Une erreur est survenue lors de l\'envoir du formulaire :').show();
         }
     })
 })
@@ -34,3 +38,4 @@ function border(event){
     }
     console.log("Test");
 }
+

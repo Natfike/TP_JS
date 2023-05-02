@@ -1,0 +1,11 @@
+.status {
+    display: none;
+}
+
+#error {
+    color: red;
+}
+
+#succes {
+    color: green;
+}
